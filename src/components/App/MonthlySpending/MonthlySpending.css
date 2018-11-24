@@ -1,0 +1,8 @@
+.Monthlyspending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mortgage, .bills, .spending{
+    display: flex;
+}

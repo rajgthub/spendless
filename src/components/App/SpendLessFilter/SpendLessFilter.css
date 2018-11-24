@@ -1,0 +1,63 @@
+footer a:link,
+footer a:visited {
+  color: #4c99a3;
+  /* text-decoration: none; */
+}
+.info {
+  color: #4c99a3;
+  text-align: center;
+  padding: 10px;
+}
+/* .spendingrange{
+    background-color: green;
+} */
+.review {
+  background-color: white;
+  color: black;
+}
+.active {
+  color: green;
+}
+footer span {
+  color: #005669;
+}
+.details {
+  height: 5rem;
+  margin: 1rem;
+  
+  /* padding: 2rem; */
+  /* background-color: blue; */
+}
+.find_ways:link, .find_ways:visited {
+  background-color: transparent;
+  border: 2px solid #00BA00;
+  text-decoration: none;
+  color: #00BA00;
+  border-radius: 6px;
+  padding: .2rem;
+  width: 80%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  transition: .4s all;
+}
+.find_ways:hover, .find_ways:active{
+    background-color: #00BA00;
+    color: white;
+}
+.saved_money{
+    color:#00BA00;
+    margin-right: 2px;
+}
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.mr{
+    margin: 0 1rem;
+}
+.form_group_row{
+  flex-direction: row !important;
+}

@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(450px, min-content));
+  justify-content: center;
+  /* background-color: rgba(224, 97, 97, 0.164); */
+  color: #444;
+  margin: 1rem;
+}
+.title{
+  background-color: #00596B;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.card_left, .card_right {
+    border-radius: 5px;
+    border: 2px solid #72A1AA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card_body{
+    padding: 1rem;
+  }
