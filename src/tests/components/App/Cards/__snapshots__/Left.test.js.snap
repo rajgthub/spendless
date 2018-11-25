@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header  1`] = `
+<div
+  className="card_left"
+>
+  <div
+    className="title"
+  >
+    your income & spend
+  </div>
+  <section
+    className="card_body"
+  >
+    <h1
+      className="heading"
+    >
+      Anual incomes
+    </h1>
+    <Connect(AnualIncomes) />
+    <h1
+      className="heading"
+    >
+      Monthly spending
+    </h1>
+    <Connect(MonthlySpending) />
+  </section>
+</div>
+`;

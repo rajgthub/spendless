@@ -55,7 +55,7 @@ export default (expenditures = initialExpenditures, { type, payload }) => {
         });
         return ageArr;
       } else {
-        return  expenditures;
+        return expenditures;
       }
     default:
       return expenditures;
