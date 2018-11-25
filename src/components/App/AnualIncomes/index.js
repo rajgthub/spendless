@@ -1,17 +1,17 @@
 import React from "react";
 import { connect } from "react-redux";
 import { changeIncome } from "../../../redux/actions";
-import './AnualIncomes.css'
-export const AnualIncomes = ({ incomes, expenditures, changeIncome }) => {
+import "./AnualIncomes.css";
+export const AnualIncomes = ({ incomes, changeIncome }) => {
   let { amount, from_age, to_age } = incomes;
-  let splitAmount
-  if(JSON.stringify(amount).includes(`£`)){
-   splitAmount =amount.split("£");
-   amount = "£" + splitAmount[1];
-  }else{
-    amount = "£"+amount;
+  let splitAmount;
+  if (JSON.stringify(amount).includes(`£`)) {
+    splitAmount = amount.split("£");
+    amount = "£" + splitAmount[1];
+  } else {
+    amount = "£" + amount;
   }
-  
+
   const handleAmountChange = e => {
     changeIncome({ amount: e.target.value });
   };
@@ -59,9 +59,8 @@ export const AnualIncomes = ({ incomes, expenditures, changeIncome }) => {
     </div>
   );
 };
-const mapStateToProps = ({ incomes, expenditures }) => ({
-  incomes,
-  expenditures
+const mapStateToProps = ({ incomes }) => ({
+  incomes
 });
 export default connect(
   mapStateToProps,

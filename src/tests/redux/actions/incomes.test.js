@@ -1,3 +1,4 @@
+import configureMockStore from 'redux-mock-store'
 import { changeIncome } from "../../../redux/actions/incomes";
 test("should setup amount for anual incomes", () => {
   const payload = { amount: 50 };
@@ -23,3 +24,16 @@ test("should setup to age for anual incomes", () => {
     payload
   });
 });
+const createMockStore = configureMockStore()
+describe('Testing dispatch to the store', () => {
+  const store = createMockStore({})
+  test('should dispatch CHANGE_INCOME action', () => {
+    const payload = {amount: 300}
+    store.dispatch(changeIncome(payload))
+    const results = store.getActions()
+    expect(results[0]).toEqual({
+      type: "CHANGE_INCOME",
+      payload
+    });
+  })
+})
