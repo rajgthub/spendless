@@ -1,8 +1,9 @@
 import React from "react";
-import ReactShallowRenderer from "react-test-renderer/shallow";
+import {shallow} from 'enzyme'
 import Header from "../../../../components/App/Header";
 test("should render Header ", () => {
-  const renderer = new ReactShallowRenderer();
-  renderer.render(<Header />);
-  expect(renderer.getRenderOutput()).toMatchSnapshot();
+  const wrapper = shallow(<Header />)
+  expect(wrapper).toMatchSnapshot()
+  const logoMsg = <h1>SpendLess</h1>
+  expect(wrapper.contains(logoMsg)).toBe(true)
 });

@@ -7,7 +7,7 @@ import {
   changeGeneralSpending
 } from "../../../redux/actions";
 import "./MonthlySpending.css";
-const MonthlySpending = ({
+export const MonthlySpending = ({
   expenditures,
   changeAge,
   changeBills,

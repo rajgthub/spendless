@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { changeIncome } from "../../../redux/actions";
 import './AnualIncomes.css'
-const AnualIncomes = ({ incomes, expenditures, changeIncome }) => {
+export const AnualIncomes = ({ incomes, expenditures, changeIncome }) => {
   let { amount, from_age, to_age } = incomes;
   let splitAmount
   if(JSON.stringify(amount).includes(`£`)){

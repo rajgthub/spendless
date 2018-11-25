@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { connect } from "react-redux";
 import "./SpendLessFilter.css";
-class SpendLessFilter extends Component {
+export class SpendLessFilter extends Component {
   state = {
     totalSpending: this.props.totalSpending,
     reducedSpending: 0,
