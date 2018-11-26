@@ -20,7 +20,7 @@ describe("Testing monthly spending fields", () => {
   test("should change bills filter value", () => {
     const value = 5000;
     const wrapper = shallow(
-      <SpendLessFilter  />
+      <SpendLessFilter  bills={value}/>
     );
     expect(wrapper).toMatchSnapshot();
     wrapper

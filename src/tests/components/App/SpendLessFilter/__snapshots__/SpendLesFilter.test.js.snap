@@ -3,7 +3,9 @@
 exports[`Testing monthly spending fields should change bills filter value 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SpendLessFilter />,
+  Symbol(enzyme.__unrendered__): <SpendLessFilter
+    bills={5000}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -58,6 +60,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -67,6 +70,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -92,6 +96,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={5000}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -101,6 +106,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={5000}
               />
             </div>
             <div
@@ -126,6 +132,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -135,6 +142,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
           </main>
@@ -158,7 +166,8 @@ ShallowWrapper {
           </div>
           <a
             className="find_ways"
-            href="#"
+            href="https://www.vouchedfor.co.uk/"
+            target="_blank"
           >
             Find ways to save
           </a>
@@ -252,6 +261,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -261,6 +271,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -286,6 +297,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={5000}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -295,6 +307,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={5000}
                 />
               </div>
               <div
@@ -320,6 +333,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -329,6 +343,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>,
@@ -384,6 +399,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -393,6 +409,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -418,6 +435,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={5000}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -427,6 +445,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={5000}
                   />
                 </div>,
                 <div
@@ -452,6 +471,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -461,6 +481,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
               ],
@@ -486,6 +507,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -495,6 +517,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -528,7 +551,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -536,7 +559,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -563,6 +586,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={5000}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -572,6 +596,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={5000}
                     />,
                   ],
                   "className": "form_group",
@@ -605,7 +630,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 5000,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -613,7 +638,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 5000,
                     },
                     "ref": null,
                     "rendered": null,
@@ -640,6 +665,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -649,6 +675,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -682,7 +709,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -690,7 +717,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -727,7 +754,8 @@ ShallowWrapper {
             </div>,
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>,
@@ -824,7 +852,8 @@ ShallowWrapper {
             "props": Object {
               "children": "Find ways to save",
               "className": "find_ways",
-              "href": "#",
+              "href": "https://www.vouchedfor.co.uk/",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Find ways to save",
@@ -1006,6 +1035,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -1015,6 +1045,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -1040,6 +1071,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={5000}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -1049,6 +1081,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={5000}
                 />
               </div>
               <div
@@ -1074,6 +1107,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -1083,6 +1117,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>
@@ -1106,7 +1141,8 @@ ShallowWrapper {
             </div>
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>
@@ -1200,6 +1236,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -1209,6 +1246,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -1234,6 +1272,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={5000}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -1243,6 +1282,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={5000}
                   />
                 </div>
                 <div
@@ -1268,6 +1308,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -1277,6 +1318,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
               </main>,
@@ -1332,6 +1374,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -1341,6 +1384,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -1366,6 +1410,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={5000}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -1375,6 +1420,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={5000}
                     />
                   </div>,
                   <div
@@ -1400,6 +1446,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -1409,6 +1456,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                 ],
@@ -1434,6 +1482,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -1443,6 +1492,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -1476,7 +1526,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -1484,7 +1534,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -1511,6 +1561,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={5000}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -1520,6 +1571,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={5000}
                       />,
                     ],
                     "className": "form_group",
@@ -1553,7 +1605,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 5000,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -1561,7 +1613,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 5000,
                       },
                       "ref": null,
                       "rendered": null,
@@ -1588,6 +1640,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -1597,6 +1650,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -1630,7 +1684,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -1638,7 +1692,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -1675,7 +1729,8 @@ ShallowWrapper {
               </div>,
               <a
                 className="find_ways"
-                href="#"
+                href="https://www.vouchedfor.co.uk/"
+                target="_blank"
               >
                 Find ways to save
               </a>,
@@ -1772,7 +1827,8 @@ ShallowWrapper {
               "props": Object {
                 "children": "Find ways to save",
                 "className": "find_ways",
-                "href": "#",
+                "href": "https://www.vouchedfor.co.uk/",
+                "target": "_blank",
               },
               "ref": null,
               "rendered": "Find ways to save",
@@ -1931,7 +1987,9 @@ ShallowWrapper {
 exports[`Testing monthly spending fields should change bills filter value 2`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SpendLessFilter />,
+  Symbol(enzyme.__unrendered__): <SpendLessFilter
+    bills={5000}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -1986,6 +2044,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -1995,6 +2054,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -2020,6 +2080,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={5000}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -2055,6 +2116,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -2064,6 +2126,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
           </main>
@@ -2081,13 +2144,14 @@ ShallowWrapper {
               className="saved_money"
             >
               £
-              NaN
+              0
             </span>
             per month
           </div>
           <a
             className="find_ways"
-            href="#"
+            href="https://www.vouchedfor.co.uk/"
+            target="_blank"
           >
             Find ways to save
           </a>
@@ -2181,6 +2245,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -2190,6 +2255,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -2215,6 +2281,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={5000}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -2250,6 +2317,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -2259,6 +2327,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>,
@@ -2314,6 +2383,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -2323,6 +2393,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -2348,6 +2419,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={5000}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -2383,6 +2455,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -2392,6 +2465,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
               ],
@@ -2417,6 +2491,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -2426,6 +2501,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -2459,7 +2535,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -2467,7 +2543,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -2494,6 +2570,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={5000}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -2537,7 +2614,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 5000,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -2572,6 +2649,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -2581,6 +2659,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -2614,7 +2693,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -2622,7 +2701,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -2653,13 +2732,14 @@ ShallowWrapper {
                 className="saved_money"
               >
                 £
-                NaN
+                0
               </span>
               per month
             </div>,
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>,
@@ -2716,7 +2796,7 @@ ShallowWrapper {
                   className="saved_money"
                 >
                   £
-                  NaN
+                  0
                 </span>,
                 "per month",
               ],
@@ -2734,14 +2814,14 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "£",
-                    NaN,
+                    0,
                   ],
                   "className": "saved_money",
                 },
                 "ref": null,
                 "rendered": Array [
                   "£",
-                  NaN,
+                  0,
                 ],
                 "type": "span",
               },
@@ -2756,7 +2836,8 @@ ShallowWrapper {
             "props": Object {
               "children": "Find ways to save",
               "className": "find_ways",
-              "href": "#",
+              "href": "https://www.vouchedfor.co.uk/",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Find ways to save",
@@ -2938,6 +3019,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -2947,6 +3029,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -2972,6 +3055,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={5000}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -3007,6 +3091,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -3016,6 +3101,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>
@@ -3033,13 +3119,14 @@ ShallowWrapper {
                 className="saved_money"
               >
                 £
-                NaN
+                0
               </span>
               per month
             </div>
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>
@@ -3133,6 +3220,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -3142,6 +3230,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -3167,6 +3256,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={5000}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -3202,6 +3292,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -3211,6 +3302,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
               </main>,
@@ -3266,6 +3358,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -3275,6 +3368,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -3300,6 +3394,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={5000}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -3335,6 +3430,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -3344,6 +3440,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                 ],
@@ -3369,6 +3466,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -3378,6 +3476,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -3411,7 +3510,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -3419,7 +3518,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -3446,6 +3545,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={5000}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -3489,7 +3589,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 5000,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -3524,6 +3624,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -3533,6 +3634,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -3566,7 +3668,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -3574,7 +3676,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -3605,13 +3707,14 @@ ShallowWrapper {
                   className="saved_money"
                 >
                   £
-                  NaN
+                  0
                 </span>
                 per month
               </div>,
               <a
                 className="find_ways"
-                href="#"
+                href="https://www.vouchedfor.co.uk/"
+                target="_blank"
               >
                 Find ways to save
               </a>,
@@ -3668,7 +3771,7 @@ ShallowWrapper {
                     className="saved_money"
                   >
                     £
-                    NaN
+                    0
                   </span>,
                   "per month",
                 ],
@@ -3686,14 +3789,14 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "£",
-                      NaN,
+                      0,
                     ],
                     "className": "saved_money",
                   },
                   "ref": null,
                   "rendered": Array [
                     "£",
-                    NaN,
+                    0,
                   ],
                   "type": "span",
                 },
@@ -3708,7 +3811,8 @@ ShallowWrapper {
               "props": Object {
                 "children": "Find ways to save",
                 "className": "find_ways",
-                "href": "#",
+                "href": "https://www.vouchedfor.co.uk/",
+                "target": "_blank",
               },
               "ref": null,
               "rendered": "Find ways to save",
@@ -3922,6 +4026,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -3931,6 +4036,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -3956,6 +4062,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -3965,6 +4072,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -3990,6 +4098,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -3999,6 +4108,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
           </main>
@@ -4022,7 +4132,8 @@ ShallowWrapper {
           </div>
           <a
             className="find_ways"
-            href="#"
+            href="https://www.vouchedfor.co.uk/"
+            target="_blank"
           >
             Find ways to save
           </a>
@@ -4116,6 +4227,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -4125,6 +4237,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -4150,6 +4263,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -4159,6 +4273,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -4184,6 +4299,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -4193,6 +4309,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>,
@@ -4248,6 +4365,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -4257,6 +4375,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -4282,6 +4401,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -4291,6 +4411,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -4316,6 +4437,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -4325,6 +4447,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
               ],
@@ -4350,6 +4473,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -4359,6 +4483,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -4392,7 +4517,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -4400,7 +4525,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -4427,6 +4552,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -4436,6 +4562,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -4469,7 +4596,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -4477,7 +4604,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -4504,6 +4631,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -4513,6 +4641,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -4546,7 +4675,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -4554,7 +4683,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -4591,7 +4720,8 @@ ShallowWrapper {
             </div>,
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>,
@@ -4688,7 +4818,8 @@ ShallowWrapper {
             "props": Object {
               "children": "Find ways to save",
               "className": "find_ways",
-              "href": "#",
+              "href": "https://www.vouchedfor.co.uk/",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Find ways to save",
@@ -4870,6 +5001,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -4879,6 +5011,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -4904,6 +5037,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -4913,6 +5047,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -4938,6 +5073,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -4947,6 +5083,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>
@@ -4970,7 +5107,8 @@ ShallowWrapper {
             </div>
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>
@@ -5064,6 +5202,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -5073,6 +5212,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -5098,6 +5238,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -5107,6 +5248,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -5132,6 +5274,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -5141,6 +5284,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
               </main>,
@@ -5196,6 +5340,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -5205,6 +5350,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -5230,6 +5376,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -5239,6 +5386,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -5264,6 +5412,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -5273,6 +5422,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                 ],
@@ -5298,6 +5448,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -5307,6 +5458,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -5340,7 +5492,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -5348,7 +5500,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -5375,6 +5527,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -5384,6 +5537,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -5417,7 +5571,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -5425,7 +5579,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -5452,6 +5606,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -5461,6 +5616,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -5494,7 +5650,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -5502,7 +5658,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -5539,7 +5695,8 @@ ShallowWrapper {
               </div>,
               <a
                 className="find_ways"
-                href="#"
+                href="https://www.vouchedfor.co.uk/"
+                target="_blank"
               >
                 Find ways to save
               </a>,
@@ -5636,7 +5793,8 @@ ShallowWrapper {
               "props": Object {
                 "children": "Find ways to save",
                 "className": "find_ways",
-                "href": "#",
+                "href": "https://www.vouchedfor.co.uk/",
+                "target": "_blank",
               },
               "ref": null,
               "rendered": "Find ways to save",
@@ -5850,6 +6008,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -5859,6 +6018,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -5884,6 +6044,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -5893,6 +6054,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -5918,6 +6080,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -5945,13 +6108,14 @@ ShallowWrapper {
               className="saved_money"
             >
               £
-              NaN
+              -100
             </span>
             per month
           </div>
           <a
             className="find_ways"
-            href="#"
+            href="https://www.vouchedfor.co.uk/"
+            target="_blank"
           >
             Find ways to save
           </a>
@@ -6045,6 +6209,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -6054,6 +6219,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -6079,6 +6245,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -6088,6 +6255,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -6113,6 +6281,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -6178,6 +6347,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -6187,6 +6357,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -6212,6 +6383,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -6221,6 +6393,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -6246,6 +6419,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -6281,6 +6455,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -6290,6 +6465,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -6323,7 +6499,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -6331,7 +6507,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -6358,6 +6534,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -6367,6 +6544,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -6400,7 +6578,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -6408,7 +6586,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -6435,6 +6613,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -6478,7 +6657,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -6517,13 +6696,14 @@ ShallowWrapper {
                 className="saved_money"
               >
                 £
-                NaN
+                -100
               </span>
               per month
             </div>,
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>,
@@ -6580,7 +6760,7 @@ ShallowWrapper {
                   className="saved_money"
                 >
                   £
-                  NaN
+                  -100
                 </span>,
                 "per month",
               ],
@@ -6598,14 +6778,14 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "£",
-                    NaN,
+                    -100,
                   ],
                   "className": "saved_money",
                 },
                 "ref": null,
                 "rendered": Array [
                   "£",
-                  NaN,
+                  -100,
                 ],
                 "type": "span",
               },
@@ -6620,7 +6800,8 @@ ShallowWrapper {
             "props": Object {
               "children": "Find ways to save",
               "className": "find_ways",
-              "href": "#",
+              "href": "https://www.vouchedfor.co.uk/",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Find ways to save",
@@ -6802,6 +6983,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -6811,6 +6993,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -6836,6 +7019,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -6845,6 +7029,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -6870,6 +7055,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -6897,13 +7083,14 @@ ShallowWrapper {
                 className="saved_money"
               >
                 £
-                NaN
+                -100
               </span>
               per month
             </div>
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>
@@ -6997,6 +7184,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -7006,6 +7194,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -7031,6 +7220,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -7040,6 +7230,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -7065,6 +7256,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -7130,6 +7322,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -7139,6 +7332,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -7164,6 +7358,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -7173,6 +7368,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -7198,6 +7394,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -7233,6 +7430,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -7242,6 +7440,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -7275,7 +7474,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -7283,7 +7482,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -7310,6 +7509,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -7319,6 +7519,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -7352,7 +7553,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -7360,7 +7561,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -7387,6 +7588,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -7430,7 +7632,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -7469,13 +7671,14 @@ ShallowWrapper {
                   className="saved_money"
                 >
                   £
-                  NaN
+                  -100
                 </span>
                 per month
               </div>,
               <a
                 className="find_ways"
-                href="#"
+                href="https://www.vouchedfor.co.uk/"
+                target="_blank"
               >
                 Find ways to save
               </a>,
@@ -7532,7 +7735,7 @@ ShallowWrapper {
                     className="saved_money"
                   >
                     £
-                    NaN
+                    -100
                   </span>,
                   "per month",
                 ],
@@ -7550,14 +7753,14 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "£",
-                      NaN,
+                      -100,
                     ],
                     "className": "saved_money",
                   },
                   "ref": null,
                   "rendered": Array [
                     "£",
-                    NaN,
+                    -100,
                   ],
                   "type": "span",
                 },
@@ -7572,7 +7775,8 @@ ShallowWrapper {
               "props": Object {
                 "children": "Find ways to save",
                 "className": "find_ways",
-                "href": "#",
+                "href": "https://www.vouchedfor.co.uk/",
+                "target": "_blank",
               },
               "ref": null,
               "rendered": "Find ways to save",
@@ -7786,6 +7990,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -7795,6 +8000,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -7820,6 +8026,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -7829,6 +8036,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -7854,6 +8062,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -7863,6 +8072,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
           </main>
@@ -7886,7 +8096,8 @@ ShallowWrapper {
           </div>
           <a
             className="find_ways"
-            href="#"
+            href="https://www.vouchedfor.co.uk/"
+            target="_blank"
           >
             Find ways to save
           </a>
@@ -7980,6 +8191,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -7989,6 +8201,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -8014,6 +8227,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -8023,6 +8237,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -8048,6 +8263,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -8057,6 +8273,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>,
@@ -8112,6 +8329,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -8121,6 +8339,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -8146,6 +8365,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -8155,6 +8375,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -8180,6 +8401,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -8189,6 +8411,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
               ],
@@ -8214,6 +8437,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -8223,6 +8447,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -8256,7 +8481,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -8264,7 +8489,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -8291,6 +8516,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -8300,6 +8526,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -8333,7 +8560,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -8341,7 +8568,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -8368,6 +8595,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -8377,6 +8605,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -8410,7 +8639,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -8418,7 +8647,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -8455,7 +8684,8 @@ ShallowWrapper {
             </div>,
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>,
@@ -8552,7 +8782,8 @@ ShallowWrapper {
             "props": Object {
               "children": "Find ways to save",
               "className": "find_ways",
-              "href": "#",
+              "href": "https://www.vouchedfor.co.uk/",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Find ways to save",
@@ -8734,6 +8965,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -8743,6 +8975,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -8768,6 +9001,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -8777,6 +9011,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -8802,6 +9037,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -8811,6 +9047,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>
@@ -8834,7 +9071,8 @@ ShallowWrapper {
             </div>
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>
@@ -8928,6 +9166,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -8937,6 +9176,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -8962,6 +9202,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -8971,6 +9212,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -8996,6 +9238,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -9005,6 +9248,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
               </main>,
@@ -9060,6 +9304,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -9069,6 +9314,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -9094,6 +9340,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -9103,6 +9350,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -9128,6 +9376,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -9137,6 +9386,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                 ],
@@ -9162,6 +9412,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -9171,6 +9422,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -9204,7 +9456,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -9212,7 +9464,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -9239,6 +9491,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -9248,6 +9501,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -9281,7 +9535,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -9289,7 +9543,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -9316,6 +9570,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -9325,6 +9580,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -9358,7 +9614,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -9366,7 +9622,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -9403,7 +9659,8 @@ ShallowWrapper {
               </div>,
               <a
                 className="find_ways"
-                href="#"
+                href="https://www.vouchedfor.co.uk/"
+                target="_blank"
               >
                 Find ways to save
               </a>,
@@ -9500,7 +9757,8 @@ ShallowWrapper {
               "props": Object {
                 "children": "Find ways to save",
                 "className": "find_ways",
-                "href": "#",
+                "href": "https://www.vouchedfor.co.uk/",
+                "target": "_blank",
               },
               "ref": null,
               "rendered": "Find ways to save",
@@ -9714,6 +9972,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -9749,6 +10008,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -9758,6 +10018,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
             <div
@@ -9783,6 +10044,7 @@ ShallowWrapper {
               </label>
               <input
                 className="form_control"
+                max={0}
                 min="0"
                 onChange={[Function]}
                 style={
@@ -9792,6 +10054,7 @@ ShallowWrapper {
                   }
                 }
                 type="range"
+                value={0}
               />
             </div>
           </main>
@@ -9809,13 +10072,14 @@ ShallowWrapper {
               className="saved_money"
             >
               £
-              NaN
+              -400
             </span>
             per month
           </div>
           <a
             className="find_ways"
-            href="#"
+            href="https://www.vouchedfor.co.uk/"
+            target="_blank"
           >
             Find ways to save
           </a>
@@ -9909,6 +10173,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -9944,6 +10209,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -9953,6 +10219,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -9978,6 +10245,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -9987,6 +10255,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>,
@@ -10042,6 +10311,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -10077,6 +10347,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -10086,6 +10357,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
                 <div
@@ -10111,6 +10383,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -10120,6 +10393,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>,
               ],
@@ -10145,6 +10419,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -10188,7 +10463,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -10223,6 +10498,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -10232,6 +10508,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -10265,7 +10542,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -10273,7 +10550,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -10300,6 +10577,7 @@ ShallowWrapper {
                     </label>,
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -10309,6 +10587,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />,
                   ],
                   "className": "form_group",
@@ -10342,7 +10621,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "className": "form_control",
-                      "max": undefined,
+                      "max": 0,
                       "min": "0",
                       "onChange": [Function],
                       "style": Object {
@@ -10350,7 +10629,7 @@ ShallowWrapper {
                         "width": "65%",
                       },
                       "type": "range",
-                      "value": undefined,
+                      "value": 0,
                     },
                     "ref": null,
                     "rendered": null,
@@ -10381,13 +10660,14 @@ ShallowWrapper {
                 className="saved_money"
               >
                 £
-                NaN
+                -400
               </span>
               per month
             </div>,
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>,
@@ -10444,7 +10724,7 @@ ShallowWrapper {
                   className="saved_money"
                 >
                   £
-                  NaN
+                  -400
                 </span>,
                 "per month",
               ],
@@ -10462,14 +10742,14 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "£",
-                    NaN,
+                    -400,
                   ],
                   "className": "saved_money",
                 },
                 "ref": null,
                 "rendered": Array [
                   "£",
-                  NaN,
+                  -400,
                 ],
                 "type": "span",
               },
@@ -10484,7 +10764,8 @@ ShallowWrapper {
             "props": Object {
               "children": "Find ways to save",
               "className": "find_ways",
-              "href": "#",
+              "href": "https://www.vouchedfor.co.uk/",
+              "target": "_blank",
             },
             "ref": null,
             "rendered": "Find ways to save",
@@ -10666,6 +10947,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -10701,6 +10983,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -10710,6 +10993,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
               <div
@@ -10735,6 +11019,7 @@ ShallowWrapper {
                 </label>
                 <input
                   className="form_control"
+                  max={0}
                   min="0"
                   onChange={[Function]}
                   style={
@@ -10744,6 +11029,7 @@ ShallowWrapper {
                     }
                   }
                   type="range"
+                  value={0}
                 />
               </div>
             </main>
@@ -10761,13 +11047,14 @@ ShallowWrapper {
                 className="saved_money"
               >
                 £
-                NaN
+                -400
               </span>
               per month
             </div>
             <a
               className="find_ways"
-              href="#"
+              href="https://www.vouchedfor.co.uk/"
+              target="_blank"
             >
               Find ways to save
             </a>
@@ -10861,6 +11148,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -10896,6 +11184,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -10905,6 +11194,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
                 <div
@@ -10930,6 +11220,7 @@ ShallowWrapper {
                   </label>
                   <input
                     className="form_control"
+                    max={0}
                     min="0"
                     onChange={[Function]}
                     style={
@@ -10939,6 +11230,7 @@ ShallowWrapper {
                       }
                     }
                     type="range"
+                    value={0}
                   />
                 </div>
               </main>,
@@ -10994,6 +11286,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -11029,6 +11322,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -11038,6 +11332,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                   <div
@@ -11063,6 +11358,7 @@ ShallowWrapper {
                     </label>
                     <input
                       className="form_control"
+                      max={0}
                       min="0"
                       onChange={[Function]}
                       style={
@@ -11072,6 +11368,7 @@ ShallowWrapper {
                         }
                       }
                       type="range"
+                      value={0}
                     />
                   </div>,
                 ],
@@ -11097,6 +11394,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -11140,7 +11438,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -11175,6 +11473,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -11184,6 +11483,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -11217,7 +11517,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -11225,7 +11525,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -11252,6 +11552,7 @@ ShallowWrapper {
                       </label>,
                       <input
                         className="form_control"
+                        max={0}
                         min="0"
                         onChange={[Function]}
                         style={
@@ -11261,6 +11562,7 @@ ShallowWrapper {
                           }
                         }
                         type="range"
+                        value={0}
                       />,
                     ],
                     "className": "form_group",
@@ -11294,7 +11596,7 @@ ShallowWrapper {
                       "nodeType": "host",
                       "props": Object {
                         "className": "form_control",
-                        "max": undefined,
+                        "max": 0,
                         "min": "0",
                         "onChange": [Function],
                         "style": Object {
@@ -11302,7 +11604,7 @@ ShallowWrapper {
                           "width": "65%",
                         },
                         "type": "range",
-                        "value": undefined,
+                        "value": 0,
                       },
                       "ref": null,
                       "rendered": null,
@@ -11333,13 +11635,14 @@ ShallowWrapper {
                   className="saved_money"
                 >
                   £
-                  NaN
+                  -400
                 </span>
                 per month
               </div>,
               <a
                 className="find_ways"
-                href="#"
+                href="https://www.vouchedfor.co.uk/"
+                target="_blank"
               >
                 Find ways to save
               </a>,
@@ -11396,7 +11699,7 @@ ShallowWrapper {
                     className="saved_money"
                   >
                     £
-                    NaN
+                    -400
                   </span>,
                   "per month",
                 ],
@@ -11414,14 +11717,14 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "£",
-                      NaN,
+                      -400,
                     ],
                     "className": "saved_money",
                   },
                   "ref": null,
                   "rendered": Array [
                     "£",
-                    NaN,
+                    -400,
                   ],
                   "type": "span",
                 },
@@ -11436,7 +11739,8 @@ ShallowWrapper {
               "props": Object {
                 "children": "Find ways to save",
                 "className": "find_ways",
-                "href": "#",
+                "href": "https://www.vouchedfor.co.uk/",
+                "target": "_blank",
               },
               "ref": null,
               "rendered": "Find ways to save",
