@@ -65,8 +65,13 @@ export class SpendLessFilter extends Component {
             improve!{" "}
           </section>
           <main className="spendingrange">
+            {this.state.mortgageReduction ? (
+              <div className="tipBox" >
+                {"£" + this.state.mortgage}
+              </div>
+            ) : null}
             <div className="form_group" style={style}>
-              <label htmlFor="" style={labelStyle}>
+              <label className="label_filter" style={labelStyle}>
                 Mortgage
               </label>
               <input
@@ -79,8 +84,13 @@ export class SpendLessFilter extends Component {
                 style={inputStyle}
               />
             </div>
+            {this.state.billsReduction ? (
+              <div className="tipBox" >
+                {"£" + this.state.bills}
+              </div>
+            ) : null}
             <div className="form_group" style={style}>
-              <label htmlFor="" style={labelStyle}>
+              <label className="label_filter" style={labelStyle}>
                 Bills
               </label>
               <input
@@ -93,8 +103,13 @@ export class SpendLessFilter extends Component {
                 style={inputStyle}
               />
             </div>
+            {this.state.generalSpendingReduction ? (
+              <div className="tipBox" >
+                {"£" + this.state.generalSpending}
+              </div>
+            ) : null}
             <div className="form_group" style={style}>
-              <label htmlFor="" style={labelStyle}>
+              <label className="label_filter" style={labelStyle}>
                 General spending
               </label>
               <input
@@ -141,7 +156,7 @@ export class SpendLessFilter extends Component {
             {!this.state.disableDown && (
               <span
                 onClick={this.handleThumbDown}
-                className={this.state.thumbDown ? "active" : null}
+                className={this.state.thumbDown ? "active_danger" : null}
               >
                 <i className="fa fa-thumbs-o-down" style={{ fontSize: 30 }} />
               </span>

@@ -36,3 +36,11 @@ label {
   display: inline-block;
   margin-bottom: .2rem;
 }
+.label_filter{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #00596b;
+  display: inline-block;
+  margin-bottom: .2rem;
+  padding-bottom: 1rem;
+}

@@ -18,6 +18,9 @@ footer a:visited {
 .active {
   color: green;
 }
+.active_danger {
+  color: orangered;
+}
 footer span {
   color: #005669;
 }
@@ -65,11 +68,12 @@ footer span {
 input[type="range"] {
   -webkit-appearance: none;
   width: 100%;
-  height: 15px;
+  height: .5rem;
   border-radius: 5px;   
   background: #d3d3d3;
   outline: none;
   opacity: 0.7;
+  margin-top: 1rem;
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
@@ -77,17 +81,29 @@ input[type="range"] {
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 25px;
-  height: 25px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%; 
-  background: #4CAF50;
+  background: #00596b;
   cursor: pointer;
 }
 
 input[type="range"]::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
-  background: #4CAF50;
+  background: #00596b;
   cursor: pointer;
+}
+.tipBox{
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  background-color: #005669;
+  color:#fff;
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-weight: bold;
+  padding: 1.2rem;
 }
