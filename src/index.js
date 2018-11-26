@@ -4,11 +4,11 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import "./index.css";
 
-import App from "./components/App";
+import AppRouter from "./components/Router";
 import * as serviceWorker from "./serviceWorker";
 const templateApp = (
   <Provider store={store}>
-    <App />
+    <AppRouter />
   </Provider>
 );
 ReactDOM.render(templateApp, document.getElementById("root"));
