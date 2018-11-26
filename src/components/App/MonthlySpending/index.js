@@ -7,6 +7,8 @@ import {
   changeGeneralSpending
 } from "../../../redux/actions";
 import "./MonthlySpending.css";
+import { addCurrencySymbol } from "../utils";
+
 export const MonthlySpending = ({
   expenditures,
   changeAge,
@@ -17,22 +19,12 @@ export const MonthlySpending = ({
   let { amount: bills, from_age, to_age } = expenditures.filter(
     expenditure => expenditure.name === "Bills"
   )[0];
-  // bills = `£${bills}`
   let { amount: mortgage } = expenditures.filter(
     expenditure => expenditure.name === "Mortgage"
   )[0];
-  // mortgage = `£${mortgage}`;
   let { amount: generalSpending } = expenditures.filter(
     expenditure => expenditure.name === "General spending"
   )[0];
-  // generalSpending = `£${generalSpending}`;
-  // let splitBills;
-  // if (JSON.stringify(bills).includes(`£`)) {
-  //   splitBills = bills.split("£");
-  //   bills = "£" + splitBills[1];
-  // } else {
-  //   bills = "£" + bills;
-  // }
   const handleBillsChange = e => {
     changeBills({ bills: e.target.value });
   };
@@ -58,7 +50,7 @@ export const MonthlySpending = ({
             <input
               type="text"
               name="one"
-              value={mortgage}
+              value={addCurrencySymbol("£", mortgage)}
               onChange={handleMortgageChange}
               className="form_control"
             />
@@ -91,7 +83,7 @@ export const MonthlySpending = ({
             <input
               type="text"
               name="one"
-              value={bills}
+              value={addCurrencySymbol("£", bills)}
               onChange={handleBillsChange}
               className="form_control"
             />
@@ -124,7 +116,7 @@ export const MonthlySpending = ({
             <input
               type="text"
               name="one"
-              value={generalSpending}
+              value={addCurrencySymbol("£", generalSpending)}
               onChange={handleGeneralSpendingChange}
               className="form_control"
             />

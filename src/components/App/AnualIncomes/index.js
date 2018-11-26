@@ -2,16 +2,9 @@ import React from "react";
 import { connect } from "react-redux";
 import { changeIncome } from "../../../redux/actions";
 import "./AnualIncomes.css";
+import { addCurrencySymbol } from '../utils';
 export const AnualIncomes = ({ incomes, changeIncome }) => {
   let { amount, from_age, to_age } = incomes;
-  let splitAmount;
-  if (JSON.stringify(amount).includes(`£`)) {
-    splitAmount = amount.split("£");
-    amount = "£" + splitAmount[1];
-  } else {
-    amount = "£" + amount;
-  }
-
   const handleAmountChange = e => {
     changeIncome({ amount: e.target.value });
   };
@@ -29,7 +22,7 @@ export const AnualIncomes = ({ incomes, changeIncome }) => {
         <input
           type="text"
           name="one"
-          value={amount}
+          value={addCurrencySymbol("£", amount)}
           onChange={handleAmountChange}
           className="form_control"
         />
