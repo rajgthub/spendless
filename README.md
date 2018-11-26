@@ -1,10 +1,10 @@
 # Introduction
-###  This is a simple **SpendLess** tool to track our customers' spending and help them get their spending on track. Simply, use the handlers on the right side of the widget to adjust and see how much you can save!
+ This is a simple **SpendLess** tool to track our customers' spending and help them get their spending on track. Simply, use the handlers on the right side of the widget to adjust and see how much you can save! This app has been GitHub and here is the link to the app https://rajgthub.github.io/spendless/.
 
 # Technologies used to build this tool
-### JavaScript (ES6) with ReactJS,  CSS3 and HTML5 are used with create-react-app module to build and develop this app. Also, Redux is used to manage states and avoid passing props between components; it helps reduce the complexity as we add more features to the app. 
+ JavaScript (ES6) with ReactJS,  CSS3 and HTML5 are used with create-react-app module to build and develop this app. Also, Redux is used to manage states and avoid passing props between components; it helps reduce the complexity as we add more features to the app. 
 
-### This is also fully tested and TDD approach was followed during the development process. Actions, reducers and components were tested using enzyme and redux-mock-store modules. User interactions such as input value change and click were also tested.  
+ This is also fully tested and TDD approach was followed during the development process. Actions, reducers and components were tested using enzyme and redux-mock-store modules. User interactions such as input value change and click were also tested.  
 
 # Follow the steps below to get started and run the app 
 
